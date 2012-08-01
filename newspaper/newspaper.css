@@ -1,0 +1,86 @@
+#container {
+    width: 800px;
+    margin: 5px;
+}
+
+#content {
+    -moz-column-count: 4;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 4;
+    -webkit-column-gap: 20px;
+    column-count: 4;
+    column-gap: 20px;
+}
+
+#headline {
+    -moz-column-span: all;
+    -webkit-column-span: all;
+    column-span: all;
+    font: 40pt georgia, serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+#paperfooter {
+    -moz-column-span: all;
+    -webkit-column-span: all;
+    column-span: all;
+    font: 8pt georgia, serif;
+    border-top: solid 1px black;
+    margin-top: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.header {
+    font-family: 'Gamaliel'; 
+    font-weight: normal; 
+    font-style: normal; 
+    font-size: 400%;
+    text-align: center;
+    border-bottom: solid black 3px;
+    padding-bottom: 5px;
+    margin: 0px 10px 00px 10px;
+}
+
+.article {
+    word-wrap: normal;
+    text-align: justify;
+    font: 8pt georgia, serif;
+    border-top: 1px solid #cccccc;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.mainarticle {
+    border-top: none;
+    padding-top: 0px;
+}
+
+.articletitle {
+    font: 10pt georgia, serif;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.maintitle {
+    font-size: 22pt;
+}
+
+.title1 {
+    font-size: 12pt;
+}
+
+.title2 {
+    font-size: 14pt;
+}
+
+.title3 {
+    font-size: 16pt;
+}
+
+.title4 {
+    font-size: 18pt;
+}

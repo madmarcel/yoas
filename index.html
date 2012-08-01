@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Ye Old Adventure Shoppe (Using the GameState library)</title>
+    <link rel="stylesheet" type="text/css" href="style.css"></link>
+
+    <!-- game classes -->
+    <script type="text/javascript" src="js/classes/node.js"></script>
+    <script type="text/javascript" src="js/classes/nodeMap.js"></script>
+
+    <!-- The GameState library -->
+    <script type="text/javascript" src="js/GameState/request_animation_frame.js"></script>
+    <script type="text/javascript" src="js/GameState/game_state.js"></script>
+    <script type="text/javascript" src="js/GameState/resources.js"></script>
+    <script type="text/javascript" src="js/classes/newSprite.js"></script>
+    <script type="text/javascript" src="js/classes/world.js"></script>
+
+    <!-- modes for use with GameState -->
+    <script type="text/javascript" src="js/modes/loading_mode.js"></script>
+    <script type="text/javascript" src="js/modes/title_mode.js"></script>
+    <script type="text/javascript" src="js/modes/play_mode.js"></script>
+
+    <!-- game classes -->
+    <script type="text/javascript" src="js/classes/character.js"></script>
+    <script type="text/javascript" src="js/classes/boat.js"></script
+
+    <!-- contains main(), which is the starting point for the game logic -->
+    <script type="text/javascript" src="js/main.js"></script>
+    <!-- <script type="text/javascript" src="js/fullscreen.js"></script> -->
+  </head>
+  <body onload="main();">
+    <section id="fs">
+      <!-- wanted this to work in full-screen mode on my tablet...but this doesn't work in chrome for android yet
+	   <button id="enter-exit-fs" onclick="enterFullscreen();">Toggle fullscreen</button> -->
+      <div id="game_container"><noscript>You have javascript turned off, or your browser doesn't support javascript. You need javascript for this game to run. Sorry! :(</noscript></div>
+      <div id="topbar">Top bar</div>
+      <div id="interface">Shop managing interface goes here...</div>
+      <div id="bottombar">Bottom bar</div>
+    </section>
+  </body>
+</html>

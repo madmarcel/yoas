@@ -1,0 +1,66 @@
+body
+{
+	/* these first 3 values are necessary for fullscreen to work properly */
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	
+	/* these values are a matter of preference, but the color and link color should be visible on the background-color for the benefit of HTML5 and javascript compatibility error messages*/
+	background-color:black;
+	color:#FFFFFF;
+}
+
+a:link,a:visited
+{
+	color:#C03040;
+}
+
+a:hover
+{
+	color:#FF6F8F;
+}
+
+/* these style rules apply only to the error messages that appear if HTML5 is not supported by the browser or if javascript is turned off.
+ * for the styles that apply to the actual game canvas, see GameState.initCanvas()*/
+#game_container
+{
+	font-family:Arial,sansserif;
+	font-size:1.5em;
+	position: absolute;
+	top: 30px;
+	left: 0px;
+}
+
+#enter-exit-fs {
+    float: right;
+}
+
+#interface {
+	display: block;
+	width: 400px;
+	height: 640px;
+	border: 1px solid white;
+	position: absolute;
+	top: 30px;
+	left: 800px;
+}
+
+#bottombar {
+	display: block;
+	width: 1200px;
+	height: 30px;
+	border: 1px solid white;
+	position: absolute;
+	top: 670px;
+	left: 0px;
+}
+
+#topbar {
+	display: block;
+	width: 1200px;
+	height: 30px;
+	border: 1px solid white;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
